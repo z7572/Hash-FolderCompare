@@ -36,7 +36,7 @@
 
 `HKEY_CLASSES_ROOT\*\shell\Hash Compare\command`
 ```
-(你的Python解释器路径\pythonw.exe) (你的文件夹对比工具路径\hash_compare_wx.py) %1
+(你的Python解释器路径)\pythonw.exe (哈希对比路径)\hash_compare_wx.py) %1
 ```
     
 `HKEY_CLASSES_ROOT\Directory\shell\Folder Compare`
@@ -46,5 +46,5 @@
 
 `HKEY_CLASSES_ROOT\Directory\shell\Folder Compare\command`
 ```
-(你的Python解释器路径)\pythonw.exe (你的文件夹对比工具路径)\folder_compare_wx.py %1
+(你的Python解释器路径)\pythonw.exe (文件夹对比路径)\folder_compare_wx.py %1
 ```
